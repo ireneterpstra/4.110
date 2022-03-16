@@ -1,0 +1,99 @@
+/* From cssbuttons.io */
+.demo-container{
+    background-color: #464646;
+}
+.title {
+    color: #fff; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 70px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+    padding: 50px 50px 10px;
+}
+
+.body {
+    color: #fff; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 20px; 
+    font-weight: bold; 
+    /* letter-spacing: -1px;  */
+    line-height: 1; 
+    text-align: center;
+    padding: 50px 50px 50px;
+}
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+   
+button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+   
+button:active {
+    transform: translateY(-1px);
+}
+
+.container {
+    margin: auto;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .USA {
+    position: absolute;
+    top: 35%;
+    left: 15.5%;
+}
+
+.container .netherlands {
+    position: absolute;
+    top: 30%;
+    left: 41%;
+}
+
+.container .japan {
+    position: absolute;
+    top: 36%;
+    left: 72%;
+}
+
+.container .congo {
+    position: absolute;
+    top: 55%;
+    left: 43%;
+}
+
+.container .australia {
+    position: absolute;
+    top: 70%;
+    left: 73%;
+}
+
+.container .argentina {
+    position: absolute;
+    top: 69%;
+    left: 23%;
+}

@@ -1,0 +1,97 @@
+<DOCTYPE! html>
+
+
+<html>
+    <head>
+        <title>Music on my Birthday</title>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script> -->
+        <link href="./music.css" rel="stylesheet" />
+        <!-- <script src="./svgMap.js"></script> -->
+        <script src="./music.js"></script>
+        <!-- <style>
+            .Europe {
+                height: 100px;
+                width: 150px;
+                position: relative;
+                left: 30%;
+                top: 50%;
+                background-color: rgb(45, 59, 167);
+                color: rgb(255, 255, 255);
+            }
+        </style> -->
+    </head>
+    <body>
+        <div class="demo-container">
+            <div class="title">Map of music in Oct 16 2000</div>
+            <div class="container">
+                <img src="world_map.png" alt="world_map" style="width:100%">
+                <button class="netherlands" onmouseover="PlaySound('darude')" 
+                    onmouseout="StopSound('darude')">
+                    Netherlands
+                </button>
+                <button class="USA" onmouseover="PlaySound('santana')" 
+                    onmouseout="StopSound('santana')">
+                    USA
+                </button>
+                <button class="japan" onmouseover="PlaySound('oops')" 
+                    onmouseout="StopSound('oops')">
+                    Japan
+                </button>
+                <button class="australia" onmouseover="PlaySound('mascara')" 
+                    onmouseout="StopSound('mascara')">
+                    Australia
+                </button>
+                <button class="congo" onmouseover="PlaySound('karolina')" 
+                    onmouseout="StopSound('karolina')">
+                    Congo
+                </button>
+                <button class="argentina" onmouseover="PlaySound('con_letra')" 
+                    onmouseout="StopSound('con_letra')">
+                    Argentina
+                </button>
+                
+            </div>
+            <div class="body">hover to hear the music of the time</div>
+
+            
+
+            <audio id='darude' src="https://docs.google.com/uc?export=open&id=1f-tIxTZKFDxVxvY2Ve7J0A8Hy7hwyXJz"/>
+            <audio id='santana' src="https://docs.google.com/uc?export=open&id=1QurdMGO8RsERp9cC_BNjRhkIVFxUVz-x"/>
+            <audio id='mascara' src="https://docs.google.com/uc?export=open&id=1TGGuJ0T3VdcmlCT9_EolaBRJT93uJ-03"/>
+            <audio id='karolina' src="https://docs.google.com/uc?export=open&id=16h0XrwiSonz7EqBoPJw3ooaTbfeCEWFB"/>
+            <audio id='con_letra' src="https://docs.google.com/uc?export=open&id=1Qx9EFxLvOVEFGE8VBx6okcqF8rJEZHB3"/>
+            <audio id='oops' src="https://docs.google.com/uc?export=open&id=1Fg0mHkq7udq_NXQlaCuxtQ4fYDcWnoAE"/>
+    
+            <!-- <div id="svgMapGPD"></div> -->
+            <!-- <script src="./data/gdp.js"></script> -->
+            <!-- <script>
+              new svgMap({
+                targetElementID: 'svgMap',
+                data: {
+                    data: {
+                    gdp: {
+                        name: 'GDP per capita',
+                        format: '{0} USD',
+                        thousandSeparator: ',',
+                        thresholdMax: 50000,
+                        thresholdMin: 1000
+                    },
+                    change: {
+                        name: 'Change to year before',
+                        format: '{0} %'
+                    }
+                    },
+                    applyData: 'gdp',
+                    values: {
+                    AF: {gdp: 587, change: 4.73},
+                    AL: {gdp: 4583, change: 11.09},
+                    DZ: {gdp: 4293, change: 10.01}
+                    // ...
+                    }
+                }
+                });
+            </script> -->
+          </div>
+    </body>
+    <div id="svgMap"></div>
+</html>
